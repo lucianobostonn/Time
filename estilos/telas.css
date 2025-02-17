@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:768px) and (max-width:1049px) {
+    main > section{
+        width: 500px;
+        height: 400px;
+    }
+
+    main > section div#img > img{
+        height: 270px;
+        width: 270px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width:1050px){
+    main > section{
+        width: 600px;
+        height: 430px;
+ 
+    }
+
+    main > section div#img > img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+
+}
