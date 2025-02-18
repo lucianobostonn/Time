@@ -7,7 +7,6 @@
     <title>What time is it?</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/telas.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=copyright"/>
 </head>
 <body>
     <header>
@@ -29,39 +28,12 @@
 
 
     <footer>
-        <p> <span class="material-symbols-outlined">
-            copyright
-            </span> <i>Luciano Boston</i></p>
+        <p>&copy; <i>Luciano Boston</i></p>
     </footer>
 
-    <script>
-        var timeTXT = window.document.getElementById("content")
-        var imagem = window.document.getElementById("opa")
-        var agora = new Date()
-        var time = agora.getHours()
-        timeTXT.innerText = `Agora são ${time} horas.`
-
-        var dia = "img/Manhã.webp"
-        var tarde = "img/Tarde.webp"
-        var noite = "img/noite.png"
-
-        if(time >= 6 && time < 12)
-        {
-            document.body.style.backgroundColor = "#eecea5"
-            imagem.src = dia
-            
-        }
-        else if(time < 18)
-        {
-            document.body.style.backgroundColor = "#bd7a5a"
-            imagem.src = tarde
-        }
-        else{
-            document.body.style.backgroundColor = "#464646"
-            imagem.src = noite
-        }
-
-
+    <script src="JavaScript.js">
+        
     </script>
+
 </body>
 </html>
